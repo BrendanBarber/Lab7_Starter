@@ -1,6 +1,6 @@
 # Lab 7 - Unit & E2E Testing
 
-
+Name: Brendan Barber
 
 **1) Where would you fit your automated tests in your Recipe project development pipeline?**
 
@@ -18,4 +18,4 @@ Navigation mode analyzes a page right after it loads, providing an overall perfo
 
 1. Add proper image dimensions / use `width` and `height` attributes on `<img>` tags to prevent layout shifts
 2. Add descriptive alt text to images and interactive elements so the page is more accessible to screen readers.
-3. Optimize images by compressing them and serving them in smaller to reduce page load time and improve the Performance score.
+3. Optimize images by compressing them and serving them smaller to reduce page load time and improve the Performance score.
