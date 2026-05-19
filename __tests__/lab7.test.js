@@ -40,7 +40,7 @@ describe('Basic user flow for Website', () => {
       console.log(`Checking product item ${i + 1}/${prodItemsData.length}`);
       let value = prodItemsData[i];
       if (value.title.length == 0) { allArePopulated = false; }
-      if (value.price.length == 0) { allArePopulated = false; }
+      if (!value.price) { allArePopulated = false; }
       if (value.image.length == 0) { allArePopulated = false; }
     }
 
